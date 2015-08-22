@@ -1,3 +1,5 @@
+##just learned about hidden files. You use . before it and the system will ignore it.
+
 ## struggling to understand why my script is not copying the folders and files into the new folder i want it to create. edit - figured it out##
 sh ~/uge/sample.sh
 
