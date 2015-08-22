@@ -1,0 +1,214 @@
+## struggling to understand why my script is not copying the folders and files into the new folder i want it to create. edit - figured it out##
+sh ~/uge/sample.sh
+
+subl moving_around.txt
+ls
+mv history.txt moving_around.txt
+subl history.txt
+less history.txt
+history.txt
+history.txt
+history man > history.txt
+ls > subl -n
+ls > subly -n
+ls | subl -n
+ls | subl
+~
+history man
+history
+history|less
+man history
+history 5
+sudo rm -rf sampleprogram/
+cd /
+rm -rf sampleprogram/
+man rmdir
+rmdir -rf /home/preet/sampleprogram
+rmdir /home/preet/sampleprogram/
+ls .
+man cd
+man ls
+ls -c
+ls -la
+cd/
+cd
+/.
+.
+pws
+~ls
+../..
+cd uge/test1
+../../
+test1/
+uge/test1
+mkdir uge/test1
+mkdir uge
+man pwd
+grep --help
+grep
+man
+##below I am checking whether I have hardware acceleration for running a VM before installing KVM - have some windows software that is critical. I do :)##
+egrep -c '(svm|vmx)' /proc/cpuinfo
+
+egrep -c 'svm|vmx)' /proc/cpuinfo
+
+## slack client for ubuntu##
+sudo apt-get install scudcloud
+sudo apt-get update
+!!
+cd ~
+sdfddfs
+cd
+exit
+man chown
+man chmod
+man xargs
+man echo
+help
+--help
+rmdir temp
+rm neat.txt something. test.txt test2.txt thefourthfile.txt uncool.txt
+rm -rf i newplace something stuff
+rmdir i newplace something stuff
+temp/
+/temp
+cat temp/test.txt
+cat temp/test2.txt
+less temp/test2.txt
+-q
+subl
+less temp/test.txt
+fd
+subl -w temp/test.txt
+EDITOR
+less test.txt
+less text.txt
+cp test.txt ~/temp/test.txt
+Desktop/
+subl -a
+subl-a
+subl -w
+mv iamcool.txt i/iamcool.txt
+mv oldplace/ newplace/
+mv newplace oldplace
+mv awesome.txt uncool.txt
+mv awesome.text uncool.txt
+cd temp
+cp -r something newplace
+cp awesome.txt something/
+cp awesome.txt something.
+mkdir something
+cp awesome.txt thefourthfile.txt
+cp neat.txt awesome.txt
+cp iamcool.txt neat.txt
+touch iamcool.txt
+pushd
+popd
+pushd icecream
+pushd i/like
+pushd i/like/icecream
+mkdir -p i/like/icecream
+rmdir alex
+rm alex
+rm alex/testfile
+rmdir alex/testfile
+rmdir alex/
+../
+rmdir "fun stuff"
+"fun stuff"/
+fun stuff/
+cd temp/stuff/things/frank/joe/alex/
+cd /things/frank/joe/alex/
+cd stuff/things/frank/joe/alex/
+cd stuff/things/frank/joe/alex/'fun stuff/'
+cd stuff/things/frank/joe/alex/'fun stuff'/
+cd stuff/things/frank/joe/alex/"fun stuff"/
+cd stuff/things/frank/joe/alex/"fun stuff"
+cd stuff/things/frank/joe/alex/fun stuff
+cd stuff/things/frank/joe/alex/john/
+cd stuff/things/frank/joe/alex/john
+stuff/
+stuff
+ls -lR
+ls -help
+Documents/
+../../../../
+stuff/things/frank/joe/
+stuff/things/frank/joe
+cd joe/
+frank/
+cd things
+cd stuff
+mkdir "fun stuff"
+
+rm testfile
+gedit ~/.bashrc
+gedit ~/.bashrxc
+temp/stuff/things/frank/joe/alex/
+things/frank/joe/alex/
+things/frank/joe/alex
+ls /home/preet/temp/
+rm -r john/
+rm john/
+rm frank/
+joe/alex/
+joe/alex
+/joe
+/joe/alex/
+/joe/alex
+things/
+cd temp/
+cd /temp
+##need help here. I wanted to edit terminal so that it aliases rm to rm -i as a precaution to avoid deleting important things. I did this but i guess i need to make the changes to fish config file not bash.##
+sudo gedit /root/.bashrc
+mkdir -p temp/stuff/things/frank/joe/alex/john
+mkdir temp/stuff/things
+mkdir temp/stuff
+mkdir temp
+cd~
+desktop/
+/desktop
+desktop
+ls /home/preet
+cd testfolder
+cd /testfolder
+mkdir /home/preet/testfolder
+hostname
+hostnale
+##started researching how to disable my onboard wifi to conserve power since I am using USB wifi##
+lspci -nnk
+lsusb
+
+##here is where I got the fish configuration finally working##
+curl -fsSL http://git.io/beJs | ruby
+sudo apt-get install ruby
+sudo dpkg --configure -a
+sudo rm -f /var/lib/dpkg/lock
+sudo vi /var/lib/dpkg/lock
+vi /var/lib/dpkg/lock
+ls -la /var/lib/dpkg/lock
+curl -fsSL http://git.io/beJs | sh
+curl -fsSL http://git.io/Ggdljw | sh
+curl -fsSL http://git.io/Ggd1jw | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'PREET@PREETGUJRAL.COM'
+git config --global user.name 'PREET GUJRAL'
+git --version
+sudo apt-get install -y git
+echo $PATH
+echo $EDITOR
+subl ~/.config/fish/config.fish
+sudo apt-get install -y sublime-text-installer
+sudo apt-get check
+sudo apt-get c
+fish_update_completions
+fileutils
+chsh -s /usr/bin/fish
+sudo apt-get install -y fish git
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt-add-repository -y ppa:webupd8team/sublime-text-3
+sudo apt-add-repository -y ppa:fish-shell/release-2
+ls -G
+curl -fsSL http://git.io/Ak1LNQ | sh
+curl - fsSL http://git.io/Ak1LNQ | sh
+sudo apt-get install -y curl
