@@ -25,3 +25,12 @@ Use git branch newbranchname to add new branch
 Use git branch to view all branches
 
 Git checkout branchname to switch branch
+
+use git remote -v to check status
+create new repository on GH
+use remote add origin "http link"
+be on the branch you want to upload
+git push -u origin master
+this requests the upload
+enter in GH username and password
+need to get an auth token for 2FA
