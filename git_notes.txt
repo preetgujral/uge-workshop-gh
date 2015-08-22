@@ -1,0 +1,27 @@
+Moving on to GIT
+
+Move to directory you want to turn into repository
+git init
+Should come back with master X in fish
+
+Git status - like getting ls
+
+She recommends pro git book
+
+https://git-scm.com/book/en/v2
+
+Use add to stage a file
+
+Then commit -m "samples message"
+
+Then log to view history
+
+The head is the most up to date full commit
+
+Master is the first branch
+
+Use git branch newbranchname to add new branch
+
+Use git branch to view all branches
+
+Git checkout branchname to switch branch
